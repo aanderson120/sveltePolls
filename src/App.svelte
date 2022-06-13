@@ -1,13 +1,22 @@
 <script>
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
+  import Header from "./components/Header.svelte";
+  import Footer from "./components/Footer.svelte";
 </script>
 
+<Header />
 <main>
-  <h1>Hello world!</h1>
-
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus
+    consectetur omnis voluptatum quia, culpa neque nam? Aut fuga harum
+    obcaecati. Sit eum rem dolore obcaecati dicta placeat praesentium
+    exercitationem?
+  </p>
 </main>
+<Footer />
 
 <style>
-
+  main {
+    max-width: 960px;
+    margin: 40px auto;
+  }
 </style>
