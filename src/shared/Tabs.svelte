@@ -29,12 +29,12 @@
   li {
     margin: 0 16px;
     font-size: 18px;
-    color: rgb(68, 67, 67);
+    color: #444343;
     cursor: pointer;
   }
   .active {
-    color: #d91b42;
-    border-bottom: 2px solid #d91b42;
+    color: #A81532;
+    border-bottom: 2px solid #A81532;
     padding-bottom: 8px;
   }
 </style>
