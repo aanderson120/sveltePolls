@@ -18,24 +18,24 @@
     box-shadow: 1px 2px 3pb rgb(0, 0, 0, 0.2);
   }
   .primary {
-    background-color: #d91b42;
+    background-color: #A81532;
     color: #ffffff;
   }
   .secondary {
-    background-color: #45c496;
+    background-color: #006600;
     color: #ffffff;
   }
   .flat {
     box-shadow: none;
   }
   .primary.inverse{
-    color: #d91b42;
-    background-color: #999090;
-    border: 2px solid #d91b42;
+    color: #A81532;
+    background-color: #D8CFCF;
+    border: 2px solid #A81532;
   }
   .secondary.inverse{
-    color: #45c496;
-    background-color: #999090;
-    border: 2px solid #45c496;
+    color: #006600;
+    background-color: #D8CFCF;
+    border: 2px solid #006600;
   }
 </style>
